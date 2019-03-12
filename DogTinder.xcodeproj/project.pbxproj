@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E30CA25222F358B000F2413 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E30CA24222F358B000F2413 /* RegistrationViewModel.swift */; };
+		0E3DCF70221A406700CD65CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3DCF6F221A406700CD65CB /* AppDelegate.swift */; };
+		0E3DCF72221A406700CD65CB /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3DCF71221A406700CD65CB /* HomeController.swift */; };
+		0E3DCF75221A406700CD65CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E3DCF73221A406700CD65CB /* Main.storyboard */; };
+		0E3DCF77221A406800CD65CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E3DCF76221A406800CD65CB /* Assets.xcassets */; };
+		0E3DCF7A221A406800CD65CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E3DCF78221A406800CD65CB /* LaunchScreen.storyboard */; };
+		0E3DCF85221A406900CD65CB /* DogTinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3DCF84221A406900CD65CB /* DogTinderTests.swift */; };
+		0E3DCF94221B9E2D00CD65CB /* HomeButtonControlsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3DCF93221B9E2D00CD65CB /* HomeButtonControlsStackView.swift */; };
+		0E3DCF96221BCEC600CD65CB /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3DCF95221BCEC600CD65CB /* TopNavigationStackView.swift */; };
+		0E3DCF98221C825500CD65CB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3DCF97221C825500CD65CB /* CardView.swift */; };
+		0E5A04CB222F4A9B003A3994 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E5A04CA222F4A9B003A3994 /* GoogleService-Info.plist */; };
+		0E5A04CD222F5B8F003A3994 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5A04CC222F5B8F003A3994 /* Bindable.swift */; };
+		0EAC18FF222C93A70035CC35 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC18FE222C93A70035CC35 /* RegistrationController.swift */; };
+		0EAC1901222C971F0035CC35 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC1900222C971F0035CC35 /* CustomTextField.swift */; };
+		0EAC1907222D11240035CC35 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC1906222D11240035CC35 /* Extensions+UIView.swift */; };
+		0EEA369C221E52CC00505814 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEA369B221E52CC00505814 /* User.swift */; };
+		0EEA36A0221E5E2500505814 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEA369F221E5E2500505814 /* CardViewModel.swift */; };
+		0EEA36A2221F5F2B00505814 /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEA36A1221F5F2B00505814 /* Advertiser.swift */; };
+		79AA99CD1D0AE089F4A7A0E0 /* Pods_DogTinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3CC06C1EC12A81D052AB17 /* Pods_DogTinderTests.framework */; };
+		EA391AED21A67701AA3338A0 /* Pods_DogTinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D32428EA364178D405C0FA /* Pods_DogTinder.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E3DCF81221A406900CD65CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E3DCF64221A406700CD65CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E3DCF6B221A406700CD65CB;
+			remoteInfo = DogTinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E30CA24222F358B000F2413 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		0E3DCF6C221A406700CD65CB /* DogTinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogTinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E3DCF6F221A406700CD65CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E3DCF71221A406700CD65CB /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		0E3DCF74221A406700CD65CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E3DCF76221A406800CD65CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E3DCF79221A406800CD65CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E3DCF7B221A406800CD65CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E3DCF80221A406900CD65CB /* DogTinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogTinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E3DCF84221A406900CD65CB /* DogTinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogTinderTests.swift; sourceTree = "<group>"; };
+		0E3DCF86221A406900CD65CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E3DCF93221B9E2D00CD65CB /* HomeButtonControlsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonControlsStackView.swift; sourceTree = "<group>"; };
+		0E3DCF95221BCEC600CD65CB /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
+		0E3DCF97221C825500CD65CB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0E5A04CA222F4A9B003A3994 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0E5A04CC222F5B8F003A3994 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		0EAC18FE222C93A70035CC35 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		0EAC1900222C971F0035CC35 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		0EAC1906222D11240035CC35 /* Extensions+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		0EEA369B221E52CC00505814 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0EEA369F221E5E2500505814 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		0EEA36A1221F5F2B00505814 /* Advertiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertiser.swift; sourceTree = "<group>"; };
+		1D7005B8A1FE9728ECAE1E72 /* Pods-DogTinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogTinderTests.debug.xcconfig"; path = "Target Support Files/Pods-DogTinderTests/Pods-DogTinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2574AC1CBEF6A40E04AC9DCF /* Pods-DogTinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogTinder.release.xcconfig"; path = "Target Support Files/Pods-DogTinder/Pods-DogTinder.release.xcconfig"; sourceTree = "<group>"; };
+		29D32428EA364178D405C0FA /* Pods_DogTinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogTinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3CC06C1EC12A81D052AB17 /* Pods_DogTinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogTinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3ECDB6D3304A94EC4DCDC6 /* Pods-DogTinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogTinderTests.release.xcconfig"; path = "Target Support Files/Pods-DogTinderTests/Pods-DogTinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD56C05EE312ED643008D772 /* Pods-DogTinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogTinder.debug.xcconfig"; path = "Target Support Files/Pods-DogTinder/Pods-DogTinder.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E3DCF69221A406700CD65CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA391AED21A67701AA3338A0 /* Pods_DogTinder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E3DCF7D221A406800CD65CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AA99CD1D0AE089F4A7A0E0 /* Pods_DogTinderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E3DCF63221A406700CD65CB = {
+			isa = PBXGroup;
+			children = (
+				0E3DCF6E221A406700CD65CB /* DogTinder */,
+				0E3DCF83221A406900CD65CB /* DogTinderTests */,
+				0E3DCF6D221A406700CD65CB /* Products */,
+				522E0BD0C3736F0DD66DA790 /* Pods */,
+				33A44224F8DABE4390FC5AAA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E3DCF6D221A406700CD65CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E3DCF6C221A406700CD65CB /* DogTinder.app */,
+				0E3DCF80221A406900CD65CB /* DogTinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E3DCF6E221A406700CD65CB /* DogTinder */ = {
+			isa = PBXGroup;
+			children = (
+				0EEA369E221E5E1400505814 /* ViewModels */,
+				0EEA369D221E5B2E00505814 /* Controllers */,
+				0EEA369A221E52AE00505814 /* Model */,
+				0E3DCF92221B9DCB00CD65CB /* Views */,
+				0E3DCF8F221A6B4700CD65CB /* Extensions */,
+				0E3DCF6F221A406700CD65CB /* AppDelegate.swift */,
+				0E3DCF73221A406700CD65CB /* Main.storyboard */,
+				0E3DCF76221A406800CD65CB /* Assets.xcassets */,
+				0E3DCF78221A406800CD65CB /* LaunchScreen.storyboard */,
+				0E5A04CA222F4A9B003A3994 /* GoogleService-Info.plist */,
+				0E3DCF7B221A406800CD65CB /* Info.plist */,
+			);
+			path = DogTinder;
+			sourceTree = "<group>";
+		};
+		0E3DCF83221A406900CD65CB /* DogTinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E3DCF84221A406900CD65CB /* DogTinderTests.swift */,
+				0E3DCF86221A406900CD65CB /* Info.plist */,
+			);
+			path = DogTinderTests;
+			sourceTree = "<group>";
+		};
+		0E3DCF8F221A6B4700CD65CB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0EAC1906222D11240035CC35 /* Extensions+UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0E3DCF92221B9DCB00CD65CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E3DCF93221B9E2D00CD65CB /* HomeButtonControlsStackView.swift */,
+				0E3DCF95221BCEC600CD65CB /* TopNavigationStackView.swift */,
+				0E3DCF97221C825500CD65CB /* CardView.swift */,
+				0EAC1900222C971F0035CC35 /* CustomTextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0EEA369A221E52AE00505814 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0EEA369B221E52CC00505814 /* User.swift */,
+				0EEA36A1221F5F2B00505814 /* Advertiser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0EEA369D221E5B2E00505814 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0E3DCF71221A406700CD65CB /* HomeController.swift */,
+				0EAC18FE222C93A70035CC35 /* RegistrationController.swift */,
+				0E30CA24222F358B000F2413 /* RegistrationViewModel.swift */,
+				0E5A04CC222F5B8F003A3994 /* Bindable.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0EEA369E221E5E1400505814 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0EEA369F221E5E2500505814 /* CardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		33A44224F8DABE4390FC5AAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29D32428EA364178D405C0FA /* Pods_DogTinder.framework */,
+				7F3CC06C1EC12A81D052AB17 /* Pods_DogTinderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		522E0BD0C3736F0DD66DA790 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD56C05EE312ED643008D772 /* Pods-DogTinder.debug.xcconfig */,
+				2574AC1CBEF6A40E04AC9DCF /* Pods-DogTinder.release.xcconfig */,
+				1D7005B8A1FE9728ECAE1E72 /* Pods-DogTinderTests.debug.xcconfig */,
+				AD3ECDB6D3304A94EC4DCDC6 /* Pods-DogTinderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E3DCF6B221A406700CD65CB /* DogTinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E3DCF89221A406900CD65CB /* Build configuration list for PBXNativeTarget "DogTinder" */;
+			buildPhases = (
+				39489621CDEBA6E6601F2023 /* [CP] Check Pods Manifest.lock */,
+				0E3DCF68221A406700CD65CB /* Sources */,
+				0E3DCF69221A406700CD65CB /* Frameworks */,
+				0E3DCF6A221A406700CD65CB /* Resources */,
+				935CCE29E7CABB18648C7864 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogTinder;
+			productName = DogTinder;
+			productReference = 0E3DCF6C221A406700CD65CB /* DogTinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E3DCF7F221A406800CD65CB /* DogTinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E3DCF8C221A406900CD65CB /* Build configuration list for PBXNativeTarget "DogTinderTests" */;
+			buildPhases = (
+				198091D05A3F55E77551733A /* [CP] Check Pods Manifest.lock */,
+				0E3DCF7C221A406800CD65CB /* Sources */,
+				0E3DCF7D221A406800CD65CB /* Frameworks */,
+				0E3DCF7E221A406800CD65CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E3DCF82221A406900CD65CB /* PBXTargetDependency */,
+			);
+			name = DogTinderTests;
+			productName = DogTinderTests;
+			productReference = 0E3DCF80221A406900CD65CB /* DogTinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E3DCF64221A406700CD65CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Stone;
+				TargetAttributes = {
+					0E3DCF6B221A406700CD65CB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					0E3DCF7F221A406800CD65CB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0E3DCF6B221A406700CD65CB;
+					};
+				};
+			};
+			buildConfigurationList = 0E3DCF67221A406700CD65CB /* Build configuration list for PBXProject "DogTinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E3DCF63221A406700CD65CB;
+			productRefGroup = 0E3DCF6D221A406700CD65CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E3DCF6B221A406700CD65CB /* DogTinder */,
+				0E3DCF7F221A406800CD65CB /* DogTinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E3DCF6A221A406700CD65CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3DCF7A221A406800CD65CB /* LaunchScreen.storyboard in Resources */,
+				0E5A04CB222F4A9B003A3994 /* GoogleService-Info.plist in Resources */,
+				0E3DCF77221A406800CD65CB /* Assets.xcassets in Resources */,
+				0E3DCF75221A406700CD65CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E3DCF7E221A406800CD65CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		198091D05A3F55E77551733A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DogTinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39489621CDEBA6E6601F2023 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DogTinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		935CCE29E7CABB18648C7864 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogTinder/Pods-DogTinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DogTinder/Pods-DogTinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E3DCF68221A406700CD65CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E5A04CD222F5B8F003A3994 /* Bindable.swift in Sources */,
+				0E3DCF72221A406700CD65CB /* HomeController.swift in Sources */,
+				0E30CA25222F358B000F2413 /* RegistrationViewModel.swift in Sources */,
+				0EAC1901222C971F0035CC35 /* CustomTextField.swift in Sources */,
+				0EAC1907222D11240035CC35 /* Extensions+UIView.swift in Sources */,
+				0E3DCF70221A406700CD65CB /* AppDelegate.swift in Sources */,
+				0EEA36A2221F5F2B00505814 /* Advertiser.swift in Sources */,
+				0E3DCF94221B9E2D00CD65CB /* HomeButtonControlsStackView.swift in Sources */,
+				0EEA36A0221E5E2500505814 /* CardViewModel.swift in Sources */,
+				0E3DCF98221C825500CD65CB /* CardView.swift in Sources */,
+				0E3DCF96221BCEC600CD65CB /* TopNavigationStackView.swift in Sources */,
+				0EAC18FF222C93A70035CC35 /* RegistrationController.swift in Sources */,
+				0EEA369C221E52CC00505814 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E3DCF7C221A406800CD65CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3DCF85221A406900CD65CB /* DogTinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E3DCF82221A406900CD65CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E3DCF6B221A406700CD65CB /* DogTinder */;
+			targetProxy = 0E3DCF81221A406900CD65CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E3DCF73221A406700CD65CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E3DCF74221A406700CD65CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E3DCF78221A406800CD65CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E3DCF79221A406800CD65CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E3DCF87221A406900CD65CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E3DCF88221A406900CD65CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E3DCF8A221A406900CD65CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD56C05EE312ED643008D772 /* Pods-DogTinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T234H6MZ5;
+				INFOPLIST_FILE = DogTinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stone.DogTinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E3DCF8B221A406900CD65CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2574AC1CBEF6A40E04AC9DCF /* Pods-DogTinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T234H6MZ5;
+				INFOPLIST_FILE = DogTinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stone.DogTinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0E3DCF8D221A406900CD65CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D7005B8A1FE9728ECAE1E72 /* Pods-DogTinderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T234H6MZ5;
+				INFOPLIST_FILE = DogTinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stone.DogTinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogTinder.app/DogTinder";
+			};
+			name = Debug;
+		};
+		0E3DCF8E221A406900CD65CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD3ECDB6D3304A94EC4DCDC6 /* Pods-DogTinderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T234H6MZ5;
+				INFOPLIST_FILE = DogTinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stone.DogTinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogTinder.app/DogTinder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E3DCF67221A406700CD65CB /* Build configuration list for PBXProject "DogTinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E3DCF87221A406900CD65CB /* Debug */,
+				0E3DCF88221A406900CD65CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E3DCF89221A406900CD65CB /* Build configuration list for PBXNativeTarget "DogTinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E3DCF8A221A406900CD65CB /* Debug */,
+				0E3DCF8B221A406900CD65CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E3DCF8C221A406900CD65CB /* Build configuration list for PBXNativeTarget "DogTinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E3DCF8D221A406900CD65CB /* Debug */,
+				0E3DCF8E221A406900CD65CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E3DCF64221A406700CD65CB /* Project object */;
+}
